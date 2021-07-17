@@ -5,7 +5,7 @@ import clipboard
 class App(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowIcon(QtGui.QIcon(CUR_DIR + '\icon.ico'))
+        self.setWindowIcon(QtGui.QIcon(CUR_DIR + '\DATA\icon.ico'))
         self.setWindowTitle("Cracker")
         self.components()
 
